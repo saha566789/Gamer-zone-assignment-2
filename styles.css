@@ -1,0 +1,17 @@
+
+/* navber styles */
+
+.nav-container{
+    border: 1px solid blueviolet;
+    min-height: 50px;
+}
+.logo-container{
+
+}
+.logo-container img{
+   width: 45px;
+}
+
+.nav-items-container{
+
+}
