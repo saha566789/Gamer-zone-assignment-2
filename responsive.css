@@ -1,9 +1,70 @@
-@media screen and (max-width:576){
+/* mobile device responsive*/
+
+@media screen and (max-width:576px){
     .nav-container{
         flex-direction: column;
     }
-    .nav-items-container{
+    .nav-items-container,
+    .play-instant{
   flex-direction: column;
-        
-    }
+        }
+        .nav-items-container a{
+        margin-top: 10px;
+      }
+      .banner-container{
+       flex-direction: column-reverse;
+       }
+       .banner-text,.banner-img{
+        width: 80%;
+     padding-left: 50px;
+       }
+       .banner-text{
+        padding-left: 80px;
+       }
+       .gid-container{
+       
+       grid-template-columns: 1fr;
+       
+   }
+   .funny-video-text{
+    font-size: 20px;
+   padding: 30px 30px;
+    
+   }
+   .funny-video-card img{
+    width: 100%;
+    padding: 40px 40px;
+  }
+  .funny-video-card p{
+    padding-left: 50px;
+    font-size: 16px;
+  }
+  .play-instant-img{
+    width: 100%;
+   }
+  .play-instant-img img{
+    width: 50%
+   
+   }
+   .play-instant-container{
+  padding-left: 30px;
+    text-align: center;
+  
 }
+.games-content{
+ 
+
+  grid-template-columns: repeat(3,1fr);
+ padding-top: 100px;
+}
+.footer-content {
+ 
+ flex-wrap: wrap;
+}
+.footer-terms{
+  
+  grid-template-columns: repeat(2,1fr);
+  
+}
+}
+/* table device */
