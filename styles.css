@@ -160,7 +160,7 @@ font-weight: 700;
     display: flex;
 }
 .play-instant-container{
-  
+  font-size: 20px;
     text-align: right;
     padding-top: 80px;
     width: 50%;
@@ -172,11 +172,7 @@ font-weight: 700;
     color: transparent;
     -webkit-background-clip: text;
 }
- .play-instant-img{
-   
-     width: 50%;
-   
-   }
+ 
    .play-instant-img img{
     width: 80%;
     height: auto;
