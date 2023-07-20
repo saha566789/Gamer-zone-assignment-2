@@ -24,6 +24,7 @@ font-family: 'Work Sans', sans-serif;
 background:  #FF42A5;
 color: #FFFFFF;
 padding: 10px 20px;
+border:none;
 
 }
 /* navber styles */
@@ -74,8 +75,8 @@ text-align: center;
  border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
  padding: 10px 20px;
- 
-
+ border: none;
+  
 }
 #icons{
     color: red;
@@ -117,6 +118,7 @@ width: 50%;
 background: #4EC5F7;
 color: #FFFFFF;
 padding: 10px 20px;
+border: none;
 }
 
 /* funny videos section */
@@ -151,6 +153,7 @@ font-weight: 700;
 .card{
     position: relative;
     width: 50%;
+
 }
 .card img{
     opacity: 1;
@@ -158,7 +161,7 @@ font-weight: 700;
   width: 100%;
   height: auto;
   transition: .5s ease;
-  backface-visibility: hidden;
+ backface-visibility: hidden; 
 }
 .card .info{
     transition: .5s ease;
@@ -166,7 +169,7 @@ font-weight: 700;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   color: #F948B2;
@@ -232,9 +235,11 @@ font-weight: 700;
     font-size: 10px;
     text-align: center;
 }
+
 .games-content{
     display: grid;
     grid-template-columns: repeat(5,1fr);
+   
     gap: 20px;
     margin-left: 0px;
 }
@@ -267,6 +272,7 @@ font-weight: 700;
 .footer-logo-container{
 display: flex;
 justify-content: center;
+padding-top: 40px;
 
 }
 .footer-logo-container img{
@@ -282,8 +288,9 @@ justify-content: center;
  
 }
 .footer-content{
-    display: flex;
-    
+    display: grid;
+     grid-template-columns: 100px 100px 100px 100px 100px 100px;
+     
     gap: 20px;
     justify-content: center;
     
@@ -292,7 +299,7 @@ justify-content: center;
     color: #FFF;
 font-size: 10px;
 font-weight: 600;
-
+margin-top: 40px;
 }
 .footer-icons ul{
    gap: 30px;
@@ -310,8 +317,8 @@ font-weight: 600;
     
 }
 .footer-terms{
-    display: flex;
-    
+   display: grid;
+   grid-template-columns: 100px 100px 100px 100px;
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
@@ -326,7 +333,7 @@ font-weight: 500;
 footer p{
     text-align: center;
     color: rgba(255, 255, 255, 0.60);
-font-size: 14px;
+font-size: 10px;
 font-weight: 500;
 margin-top: 30px;
 
